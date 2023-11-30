@@ -3,9 +3,7 @@
 
 name: 'yuzu-android-build'
 
-on:
-  push:
-    tags: [ "*" ]
+on: [push]
 
 jobs:
   android:
